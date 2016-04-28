@@ -10,7 +10,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>br.com.eits</groupId>
+	<groupId>com.digows</groupId>
 	<artifactId>blank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -18,7 +18,7 @@
 	<properties>
 		<!-- General -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<start-class>br.com.eits.blank.Application</start-class>
+		<start-class>com.digows.blank.Application</start-class>
 		<java.version>1.8</java.version>
 		
 		<!-- Sonar Properties -->
@@ -26,7 +26,7 @@
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
         <sonar.language>java</sonar.language>
         <sonar.jacoco.itReportPath>target/jacoco-it.exec</sonar.jacoco.itReportPath>
-        <sonar.sources>src/main/java/br/com/eits/blank/domain</sonar.sources>
+        <sonar.sources>src/main/java/com/digows/blank/domain</sonar.sources>
         <sonar.tests>src/test</sonar.tests>
 
 		<!-- Others -->
@@ -74,11 +74,11 @@
 				<mvn.jcr.files>/tmp/blank/files</mvn.jcr.files>
 				
 				<!-- Mail -->
-				<mvn.mail.host>expressodev.prognus.com.br</mvn.mail.host>
+				<mvn.mail.host>host.mail.com</mvn.mail.host>
 				<mvn.mail.port>25</mvn.mail.port>
 				<mvn.mail.username>no-reply</mvn.mail.username>
 				<mvn.mail.password>soAsx2gGX6Rbhk</mvn.mail.password>
-				<mvn.mail.from>no-reply@prognus.org</mvn.mail.from>
+				<mvn.mail.from>no-reply@digows.com</mvn.mail.from>
 				<mvn.mail.ttls>false</mvn.mail.ttls>
 				<mvn.mail.ssl>false</mvn.mail.ssl>
 				<mvn.mail.debug>true</mvn.mail.debug>
@@ -111,11 +111,11 @@
 				<mvn.jcr.files>/tmp/blank-sandbox/files</mvn.jcr.files>
 				
 				<!-- Mail -->
-				<mvn.mail.host>expressodev.prognus.com.br</mvn.mail.host>
+				<mvn.mail.host>host.mail.com</mvn.mail.host>
 				<mvn.mail.port>25</mvn.mail.port>
 				<mvn.mail.username>no-reply</mvn.mail.username>
 				<mvn.mail.password>soAsx2gGX6Rbhk</mvn.mail.password>
-				<mvn.mail.from>no-reply@prognus.org</mvn.mail.from>
+				<mvn.mail.from>no-reply@digows.com</mvn.mail.from>
 				<mvn.mail.ttls>false</mvn.mail.ttls>
 				<mvn.mail.ssl>false</mvn.mail.ssl>
 				<mvn.mail.debug>true</mvn.mail.debug>
@@ -148,11 +148,11 @@
 				<mvn.jcr.files>/tmp/blank-homologation/files</mvn.jcr.files>
 				
 				<!-- Mail -->
-				<mvn.mail.host>expressodev.prognus.com.br</mvn.mail.host>
+				<mvn.mail.host>host.mail.com</mvn.mail.host>
 				<mvn.mail.port>25</mvn.mail.port>
 				<mvn.mail.username>no-reply</mvn.mail.username>
 				<mvn.mail.password>soAsx2gGX6Rbhk</mvn.mail.password>
-				<mvn.mail.from>no-reply@prognus.org</mvn.mail.from>
+				<mvn.mail.from>no-reply@digows.com</mvn.mail.from>
 				<mvn.mail.ttls>false</mvn.mail.ttls>
 				<mvn.mail.ssl>false</mvn.mail.ssl>
 				<mvn.mail.debug>true</mvn.mail.debug>
